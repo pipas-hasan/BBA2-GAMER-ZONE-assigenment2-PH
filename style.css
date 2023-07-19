@@ -284,11 +284,34 @@ li a{
 }
 
 
+.footer-container{
+   padding: 50px;
+   background-color: #0B0223;
+   color: #fff;
+}
 
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.icon-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.footer-para{
+    text-align: center;
+}
 
 
 
@@ -302,7 +325,8 @@ li a{
     .nav-item-container ul,
     .banner-container,
     .gamer-container,
-    .box-container{
+    .box-container,
+    .image-round{
         flex-direction: column;
     }
 
@@ -310,7 +334,40 @@ li a{
         text-align: center;
         justify-content: center;
     }
+    
+    .gamer-container {
+        align-items: center;
+        background: #fff;
+      }
+    .box-container {
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+      }  
+      .box-para {
+        font-size: 9px;
+    }  
+    .gamer-images img {
+        width: auto;
+        height: 240px;
+      }  
 
+      .spial-para-two{
+        font-size: 13px;
+      }  
+      .spial-para-one{
+        font-size: 13px;
+      }  
+
+      .gamer-btn .btn-one{
+        font-size: 13px;
+      }
+    .online-game-title{
+        font-size: 25px;
+    }
+    .online-game-para {
+        font-size: 12px;
+    }
     .gamer-content{
         text-align: center;
     }
