@@ -508,6 +508,10 @@ line-height: 30px;
         width: 400px;
         margin: 0 auto;
       }
+
+      .dowenlod-photo {
+        margin-bottom: -222px;
+      }
     
       .big-img {
         height: 290px;
@@ -520,18 +524,19 @@ line-height: 30px;
    .image-round {
     display: grid;
     width: 50px;
-    margin: 0 auto;
+    margin: 10px 10px;
     padding: 7px 36px;
   }
   
   .image-round img{
     width: 25px;
+    margin-left: -27px;
   }
   .images-round-para {
     font-size: 10px;
   }  
    .sercle-one{
-    width: 350px;
+    width: 425px;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
    }
