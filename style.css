@@ -313,31 +313,39 @@ line-height: 30px;
 }
 
 .image-round{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     background-color: #Fff;
     color: #0B0223;
-    padding: 10px 20px;
     margin-top: 40px ;
     border-radius: 50px;
     cursor: pointer;
+    width: 187px;
+    margin: 10 auto;
 } 
 
 .image-round:hover{
     border: 1px solid #F948B2;
      color: #F948B2;
 }
-
-.sercle-one{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.images-round-para:hover{
+    color: #F948B2;
 }
-.sercle-two{
-    display: flex;
-    justify-content: space-around;
+.sercle-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-}
+    width: 1100px;
+    margin: 0 auto;
+  }
+  /* .sercle-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+  } */
 .images-round-para{
     font-size: 16px;
     font-weight: 600;
