@@ -246,6 +246,9 @@ li a{
     width: 270px;
 }
 
+/* .box-one img:hover{
+    
+} */
 .box-para{
     font-size: 16px;
     font-weight: 500;
@@ -508,7 +511,6 @@ line-height: 30px;
         width: 400px;
         margin: 0 auto;
       }
-
       .dowenlod-photo {
         margin-bottom: -222px;
       }
