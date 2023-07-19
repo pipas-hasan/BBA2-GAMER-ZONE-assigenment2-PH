@@ -71,6 +71,7 @@ li a{
     display: flex;
     align-items: center;
 }
+
 .logo-container p{
     color: #000;
     font-size: 45px;
@@ -86,15 +87,15 @@ li a{
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
-    padding: 18px 22px;
+    padding: 10px 14px;
     border: none;
     border-radius: 6px;
     cursor: pointer;
 }
+  .fa.fa-twitter {
+    margin-left: 60px;
+  }  
 
-.fa.fa-instagram {
-    padding: 0px 15px;
-  }
 
 /* -------------banner-section-------- */
 .title{
@@ -496,6 +497,17 @@ line-height: 30px;
      .dowenlod-para {
         text-align: center;
         font-size: 13px;
+        width: 400px;
+        margin: 0 auto;
+      }
+    
+      .big-img {
+        height: 290px;
+        margin: 7px 105px;
+      }
+      .small-img {
+        height: 165px;
+        margin: 86px 199px;
       }
 
 }
