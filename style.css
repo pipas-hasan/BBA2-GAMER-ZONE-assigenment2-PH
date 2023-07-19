@@ -16,17 +16,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=B612&family=Dancing+Script:wght@700&family=Koulen&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Work+Sans:wght@400;600;700;800&display=swap');
 
+
 body{
     font-family: 'Work Sans', sans-serif;
 }
 
 /*------- header-section------------ */
 .nav-container{
-    min-height: 50px;
+    min-height: 40px;
+    width: auto;
     display: flex;
     justify-content: space-around;
     background: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .logo-container{
@@ -63,6 +65,10 @@ li a{
     line-height: 30px;
     font-weight: 400;
     color: #534C64;
+}
+.search-ber{
+    display: flex;
+    align-items: center;
 }
 .logo-container p{
     color: #000;
@@ -219,6 +225,7 @@ li a{
    line-height: 30px;
 }
 
+
 .online-gamer-spisal{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -307,26 +314,40 @@ li a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
 }
 
 .footer-para{
     text-align: center;
 }
+.footer-icon-para{
+    font-size: 45px;
+    font-weight: 800;
+}
+.footer-item {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 0px;
+  }
 
 
 
 
+/* mobail device */ 
+@media screen and (max-width: 480px) {
+   /*  nav.nav-container,
+    .banner-section {
+        width: 600px;
 
+    } */
 
-/* mobail device */
-@media screen and (max-width: 565px) {
     .nav-container,
     .nav-item-container,
     .nav-item-container ul,
     .banner-container,
     .gamer-container,
-    .box-container,
-    .image-round{
+    .box-container{
         flex-direction: column;
     }
 
@@ -382,5 +403,25 @@ li a{
     .box-container{
         width: auto;
     }
+    .footer-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        font-size: 10px;
+        gap: 10px;
+        padding-top: 10px;
+      }
+    .footer-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        font-size: 10px;
+        gap: 10px;
+        padding-top: 10px;
+    }  
+
+    .footer-para {
+        font-size: 12px;
+        padding-top: 10px;
+      }
 
 }
+ 
