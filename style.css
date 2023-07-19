@@ -517,6 +517,23 @@ line-height: 30px;
         height: 165px;
         margin: 86px 199px;
       }
-
+   .image-round {
+    display: grid;
+    width: 50px;
+    margin: 0 auto;
+    padding: 7px 36px;
+  }
+  
+  .image-round img{
+    width: 25px;
+  }
+  .images-round-para {
+    font-size: 10px;
+  }  
+   .sercle-one{
+    width: 350px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+   }
 }
  
