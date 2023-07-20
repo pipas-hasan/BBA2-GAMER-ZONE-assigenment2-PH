@@ -282,6 +282,7 @@ li a{
     margin-bottom: 93px;
     border-radius: 15px;
     align-items: center;
+    cursor: pointer;
   }
 
 /* dowenlod sectiom */
