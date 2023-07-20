@@ -278,11 +278,18 @@ li a{
     background-color: #01061A63;
     color: white;
     font-size: 40px;
-    padding: 136px 121px;
+    padding: 107px 85px;
     margin-bottom: 93px;
     border-radius: 15px;
     align-items: center;
+    border: 2px solid #F948B2;
     cursor: pointer;
+  }
+
+  .watch-now {
+    font-size: 18px;
+    color: #F948B2;
+    width: 100px;
   }
 
 /* dowenlod sectiom */
@@ -408,6 +415,7 @@ line-height: 30px;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    cursor: pointer;
 }
 
 .footer-para{
