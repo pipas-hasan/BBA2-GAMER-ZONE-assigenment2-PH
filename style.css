@@ -363,13 +363,19 @@ line-height: 30px;
 .images-round-para:hover{
     color: #F948B2;
 }
+
 .sercle-one {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 1100px;
     margin: 0 auto;
-}
+  }
+
+  .image-round {
+    margin-right: 30px;
+  }
  
 .images-round-para{
     font-size: 16px;
